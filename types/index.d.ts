@@ -1,0 +1,1 @@
+export {useInventoryFunction} from "./useInventory";
