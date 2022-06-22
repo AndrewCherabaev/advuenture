@@ -2,20 +2,21 @@
   "name": "advuenture",
   "version": "1.0.0",
   "description": "Bunch of components I made for my games",
-  "main": "src/index.js",
+  "main": "index.js",
   "typings": "types/index.d.ts",
-  "module": "src/index.js",
+  "module": "index.js",
   "files": [
     "src",
-    "types"
+    "types",
+    "index.js"
   ],
   "exports": {
     ".": {
       "import": {
-        "node": "./src/index.js",
+        "node": "./index.js",
         "default": "./src/index.js"
       },
-      "require": "./src/index.js",
+      "require": "./index.js",
       "types": "./types/index.d.ts"
     }
   },
